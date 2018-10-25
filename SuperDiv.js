@@ -193,7 +193,7 @@ const superDivMe = (props) => css`
 
   ${(props.colXs || props.colXsOffset) && colCommon}
   ${props.colXs && colSize(props.colXs)}
-  ${props.colXsOffset && colOffset(props.colXsOffset)}
+  ${props.colOffsetXs && colOffset(props.colOffsetXs)}
 
 
   ${props.startXs && startCol}
@@ -252,7 +252,7 @@ const superDivMe = (props) => css`
 
     ${(props.colSm || props.colSmOffset) && colCommon}
     ${props.colSm && colSize(props.colSm)}
-    ${props.colSmOffset && colOffset(props.colSmOffset)}
+    ${props.colOffsetSm && colOffset(props.colOffsetSm)}
 
     ${props.startSm && startCol}
     ${props.centerSm && centerCol}
@@ -299,7 +299,7 @@ const superDivMe = (props) => css`
 
     ${(props.colMd || props.colMdOffset) && colCommon}
     ${props.colMd && colSize(props.colMd)}
-    ${props.colMdOffset && colOffset(props.colMdOffset)}
+    ${props.colOffsetMd && colOffset(props.colOffsetMd)}
 
     ${props.startMd && startCol}
     ${props.centerMd && centerCol}
@@ -346,7 +346,7 @@ const superDivMe = (props) => css`
 
     ${(props.colLg || props.colLgOffset) && colCommon}
     ${props.colLg && colSize(props.colLg)}
-    ${props.colLgOffset && colOffset(props.colLgOffset)}
+    ${props.colOffsetLg && colOffset(props.colOffsetLg)}
 
     ${props.startLg && startCol}
     ${props.centerLg && centerCol}
