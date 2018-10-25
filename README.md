@@ -49,7 +49,7 @@ dFlex | Boolean | Display your SuperDiv as `flex` | ✓
 dInlineFlex | Boolean | Display your SuperDiv as `inline-flex` | ✓ 
 
 ### Spacing
-Add padding and margin to your SuperDiv
+Add **rem** padding and margin to your SuperDiv
 
 Name | Type | Description | Responsive suffix
 --- | ---| --- | ---
