@@ -9,7 +9,7 @@ const GUTTER = 15;
 
 const Media = Object.keys(BREAKPOINTS).reduce((acc, label) => {
   acc[label] = (...args) => css`
-    @Media (min-width: ${BREAKPOINTS[label]}px) {
+    @media (min-width: ${BREAKPOINTS[label]}px) {
       ${css(...args)}
     }`;
 
